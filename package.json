@@ -1,5 +1,5 @@
 {
-  "name": "Web-capture",
+  "name": "web_capture",
   "version": "0.1",
   "scripts": {
     "start": "node index.js"
