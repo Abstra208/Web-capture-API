@@ -26,6 +26,7 @@
 			// capture the webpage as an image using html2canvas library
 			html2canvas(document.body).then(function(canvas) {
 				img.src = canvas.toDataURL();
+                document.body.appendChild(image);
 			});
 		}
 	</script>
