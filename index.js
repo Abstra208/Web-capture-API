@@ -13,7 +13,3 @@ app.get('/screenshot', async (req, res) => {
   res.set('Content-Type', 'image/png');
   res.send(screenshot);
 });
-
-app.listen(port, () => {
-  console.log(`Example app listening at http://localhost:${port}`);
-});
