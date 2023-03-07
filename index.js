@@ -14,7 +14,7 @@ app.get('/screenshot', async (req, res) => {
   res.send(screenshot);
 });
 
-app.get('/', async (req, res) => {
+app.get('/', (req, res) => {
   res.send(`
     <!DOCTYPE html>
     <html lang="en">
