@@ -19,7 +19,7 @@ app.get('/', (req, res) => {
         </section>
     </body>
     </html>
-  `)
+  `);
 });
 
 app.get('/screenshot', async (req, res) => {
